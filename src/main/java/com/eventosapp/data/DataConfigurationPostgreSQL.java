@@ -1,4 +1,4 @@
-package com.eventosapp;
+package com.eventosapp.data;
 
 import java.net.URI;
 import java.net.URISyntaxException;

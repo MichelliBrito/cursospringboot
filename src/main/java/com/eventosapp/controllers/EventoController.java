@@ -46,7 +46,7 @@ public class EventoController {
 	
 	@RequestMapping("/eventos")
 	public ModelAndView listaEventos(){
-		ModelAndView mv = new ModelAndView("index");
+		ModelAndView mv = new ModelAndView("listaEventos");
 		Iterable<Evento> eventos = er.findAll();
 		mv.addObject("eventos", eventos);
 		return mv;

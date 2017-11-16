@@ -29,7 +29,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	}
 
 	@Override
-	public void configure(WebSecurity web) throws java.lang.Exception{
+	public void configure(WebSecurity web) throws Exception{
 		web.ignoring().antMatchers("/materialize/**", "/style/**");
 	}
 }
